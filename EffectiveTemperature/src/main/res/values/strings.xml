@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Effektiv Temperatur</string>
+	<string name="temperature">Lufttemperatur</string>
+	<string name="windspeed">Vindstyrke</string>
+	<string name="result">Følt temperatur</string>
+	<string name="yr_link">
+		<a href="http://om.yr.no/forklaring/symbol/effektiv-temperatur/">
+			Link til beskrivelse på yr.no
+		</a>
+	</string>
+	<string name="friluftsnett_link">
+		<a href="http://www.m.friluftsnett.net/index.php?lang=no&amp;side=regn-ut-effektiv-temperatur">
+			Link til orginalidé på Friluftsnett
+		</a>
+	</string>
+    
+</resources>

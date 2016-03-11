@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "birger.EffektivTemperatur"
+        minSdkVersion 10
+        targetSdkVersion 10
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':..:Android-Wheel:android-wheel')
+}

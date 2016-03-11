@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+	<LinearLayout 
+		android:layout_alignParentTop="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:orientation="vertical" >
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/temperature"
+			android:textColor="#ffbb00ff" 
+	        android:layout_marginTop="26dp"
+		    android:layout_gravity="center_horizontal"
+			/>
+		
+		<kankan.wheel.widget.WheelView
+			android:id="@+id/temperature"
+			android:layout_marginLeft="22dip"
+			android:layout_marginRight="20dip"
+			android:layout_height="wrap_content"
+			android:layout_width="120dip"
+			android:layout_gravity="center_horizontal"
+			/>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/windspeed" 
+			android:textColor="#ffbb00ff" 
+			android:layout_marginTop="26dp"
+			android:layout_gravity="center_horizontal"
+			/>
+		
+		<kankan.wheel.widget.WheelView 
+			android:id="@+id/windspeed"
+			android:layout_marginLeft="22dip"
+			android:layout_marginRight="20dip"
+			android:layout_height="wrap_content"
+			android:layout_width="120dip"
+			android:layout_gravity="center_horizontal"
+			/>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/result" 
+			android:textColor="#ffbb00ff" 
+			android:layout_marginTop="26dp"
+			android:layout_gravity="center_horizontal"
+			/>
+		
+		<TextView
+			android:id="@+id/result"
+			android:textSize="24sp"
+			android:typeface="sans" 
+			android:textStyle="bold"
+			android:textColor="#ffbb00ff" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			/>
+	    
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:orientation="vertical" >
+		
+		<TextView
+			android:id="@+id/yr_link"
+			android:text="@string/yr_link" 
+			android:textColorLink="#ffbb00ff" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			/>
+		
+		<TextView
+			android:id="@+id/friluftsnett_link"
+			android:text="@string/friluftsnett_link" 
+			android:textColorLink="#ffbb00ff" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			/>
+		
+	</LinearLayout>
+	
+</RelativeLayout>
