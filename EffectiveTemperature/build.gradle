@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 10
+    compileSdkVersion 21
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "birger.EffektivTemperatur"
         minSdkVersion 10
-        targetSdkVersion 10
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile project(':..:Android-Wheel:android-wheel')
+    compile project(':Android-Wheel')
 }

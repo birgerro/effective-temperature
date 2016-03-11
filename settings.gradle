@@ -1,2 +1,3 @@
 include ':EffectiveTemperature'
-include '..:Android-Wheel:android-wheel'
+include ':Android-Wheel'
+project(':Android-Wheel').projectDir = file('../Android-Wheel/wheel')
